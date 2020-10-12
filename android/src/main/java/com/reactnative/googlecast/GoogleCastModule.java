@@ -509,8 +509,6 @@ public class GoogleCastModule
             return null;
         }
 
-        System.out.println(client.getApproximateLiveSeekableRangeEnd());
-        System.out.println(client.getApproximateLiveSeekableRangeEnd() / 1000);
         return client.getMediaStatus();
     }
 
